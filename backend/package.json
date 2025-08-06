@@ -1,0 +1,32 @@
+{
+  "name": "mern-blog",
+  "version": "1.0.0",
+  "description": "blog application using MERN-Stack",
+  "keywords": [
+    "om"
+  ],
+  "homepage": "https://github.com/chinmayee-14/MERN-BLOG#readme",
+  "bugs": {
+    "url": "https://github.com/chinmayee-14/MERN-BLOG/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinmayee-14/MERN-BLOG.git"
+  },
+  "license": "ISC",
+  "author": "chinmayee",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "mongodb": "^6.18.0",
+    "mongoose": "^8.17.0",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
